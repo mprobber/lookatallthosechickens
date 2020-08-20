@@ -25,7 +25,7 @@ jobs:
           at: "build"
       - add_ssh_keys:
           fingerprints:
-            - "5c:36:a8:69:94:6d:85:74:98:fb:0b:9a:37:7f:dc:df"
+            - "e2:72:1f:06:13:a7:fd:30:5b:57:ea:9b:87:0e:12:f4"
       - run:
           name: Install and configure dependencies
           command: |
