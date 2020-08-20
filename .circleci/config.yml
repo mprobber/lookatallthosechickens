@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: build
+          at: "build"
       - run:
           name: Install and configure dependencies
           command: |
